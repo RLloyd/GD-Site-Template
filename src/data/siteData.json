@@ -1,0 +1,43 @@
+{
+  "company": {
+    "name": "GDSiteTemplate",
+    "logo": "/logo.svg",
+    "navigation": [
+      { "name": "Home", "path": "/" },
+      { "name": "Services", "path": "/services" },
+      { "name": "About Us", "path": "/about" },
+      { "name": "Location", "path": "/location" }
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome to GDSiteTemplate",
+      "content": "Your modern web solution"
+    },
+    "services": {
+      "title": "Our Services",
+      "services": [
+        {
+          "id": 1,
+          "name": "Service 1",
+          "description": "Description for service 1"
+        },
+        {
+          "id": 2,
+          "name": "Service 2",
+          "description": "Description for service 2"
+        }
+      ]
+    },
+    "about": {
+      "title": "About Us",
+      "content": "Learn about our story"
+    },
+    "location": {
+      "title": "Find Us",
+      "address": "123 Main Street",
+      "city": "Sample City",
+      "country": "Sample Country"
+    }
+  }
+}
